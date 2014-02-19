@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "HellGlow World/City.m"
-            timestampString = "414406832.827889"
+            timestampString = "414528591.605661"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "40"
-            endingLineNumber = "40"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
             landmarkName = "-init"
             landmarkType = "5">
          </BreakpointContent>
@@ -90,59 +90,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "HellGlow World/City.m"
-            timestampString = "414406832.827889"
+            timestampString = "414528591.605661"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "41"
-            endingLineNumber = "41"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
             landmarkName = "-init"
             landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "HellGlow World/City.m"
-            timestampString = "414406691.927545"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "28"
-            endingLineNumber = "28"
-            landmarkName = "-showInfo"
-            landmarkType = "5">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[City showInfo]"
-                  moduleName = "HellGlow World"
-                  urlString = "file:///Users/Anh/Documents/Software%20Engineering/Smart%20Mobile%20IOS/Assignement%20w1/HellGlow%20World/HellGlow%20World/City.m"
-                  timestampString = "414406718.38874"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "28"
-                  endingLineNumber = "28"
-                  offsetFromSymbolStart = "313">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[City showInfo]"
-                  moduleName = "HellGlow World"
-                  urlString = "file:///Users/Anh/Documents/Software%20Engineering/Smart%20Mobile%20IOS/Assignement%20w1/HellGlow%20World/HellGlow%20World/City.m"
-                  timestampString = "414406718.389061"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "28"
-                  endingLineNumber = "28"
-                  offsetFromSymbolStart = "682">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
