@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>368B072B-C1A9-4499-891A-6701D5668EE4</string>
+	<key>IDESourceControlProjectName</key>
+	<string>HellGlow World</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>FDBE530B-BC92-433E-B84E-71747BD13138</key>
+		<string>https://github.com/MrKaws/smte31.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Week 1/HellGlow World/HellGlow World.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>FDBE530B-BC92-433E-B84E-71747BD13138</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/MrKaws/smte31.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>FDBE530B-BC92-433E-B84E-71747BD13138</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>FDBE530B-BC92-433E-B84E-71747BD13138</string>
+			<key>IDESourceControlWCCName</key>
+			<string>smte31</string>
+		</dict>
+	</array>
+</dict>
+</plist>
