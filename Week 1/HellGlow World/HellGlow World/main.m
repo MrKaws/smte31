@@ -28,10 +28,12 @@ int main(int argc, const char * argv[])
         City *city = [[City alloc] init];
         city.name = @"Eindhoven";
         city.population = 220000;
-        [city.glowActs addObject:@[blueLightAct]];
-        [city.glowActs addObject:@[redLightAct]];
+        [city.glowActs addObject:blueLightAct];
+        [city.glowActs addObject:redLightAct];
 
-        [blueLightAct showOff];
+        for(GlowAct *act in city.glowActs){
+            [act showOff];
+        }
         [city showInfo];
 
     }
