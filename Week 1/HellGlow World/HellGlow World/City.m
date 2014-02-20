@@ -18,6 +18,9 @@
 {
     NSLog(@"In the city of %@ there are currently living %ld people", name, population);
     NSLog(@"amount of acts: %ld", [glowActs count]);
+    for(GlowAct *act in glowActs){
+        [act showOff];
+    }
 }
 
 

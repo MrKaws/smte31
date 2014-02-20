@@ -31,9 +31,6 @@ int main(int argc, const char * argv[])
         [city.glowActs addObject:blueLightAct];
         [city.glowActs addObject:redLightAct];
 
-        for(GlowAct *act in city.glowActs){
-            [act showOff];
-        }
         [city showInfo];
 
     }
