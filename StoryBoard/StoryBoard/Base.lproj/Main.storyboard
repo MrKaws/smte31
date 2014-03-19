@@ -4,7 +4,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
     </dependencies>
     <scenes>
-        <!--Food View Controller - Item 1-->
+        <!--Food View Controller - Food-->
         <scene sceneID="PbY-Mk-4kj">
             <objects>
                 <viewController storyboardIdentifier="FoodViewController" id="IPv-B8-3vd" customClass="FoodViewController" sceneMemberID="viewController">
@@ -15,15 +15,9 @@
                     <view key="view" contentMode="scaleToFill" id="5TT-ey-xA8">
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bulletproof_skull" translatesAutoresizingMaskIntoConstraints="NO" id="hmA-eU-OrH">
-                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                            </imageView>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" id="mOJ-vC-pnd"/>
+                    <tabBarItem key="tabBarItem" title="Food" id="mOJ-vC-pnd"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bX7-6f-Bmh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -33,7 +27,7 @@
         <scene sceneID="iPg-ie-vYh">
             <objects>
                 <tabBarController definesPresentationContext="YES" id="Kx6-oN-9rh" sceneMemberID="viewController">
-                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="3zX-Kk-XNA">
                         <rect key="frame" x="129" y="330" width="163" height="49"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
@@ -48,7 +42,7 @@
             </objects>
             <point key="canvasLocation" x="-966" y="45"/>
         </scene>
-        <!--Workout View Controller - Item 2-->
+        <!--Workout View Controller - Workout-->
         <scene sceneID="mP9-be-iyl">
             <objects>
                 <viewController storyboardIdentifier="WorkoutViewController" id="Aug-4j-L03" customClass="WorkoutViewController" sceneMemberID="viewController">
@@ -59,24 +53,15 @@
                     <view key="view" contentMode="scaleToFill" id="Asc-qf-oFk">
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bulletproof_skull" translatesAutoresizingMaskIntoConstraints="NO" id="4xC-tp-C7E">
-                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                            </imageView>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="IEa-dO-MLX"/>
+                    <tabBarItem key="tabBarItem" title="Workout" id="IEa-dO-MLX"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jpb-YX-wY2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="18" y="597"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="bulletproof_skull" width="1080" height="1920"/>
-    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackOpaque"/>
         <simulatedOrientationMetrics key="orientation"/>

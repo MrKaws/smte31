@@ -23,6 +23,8 @@
 		BDEFE1FC18BF316A0095142C /* StoryBoardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEFE1FB18BF316A0095142C /* StoryBoardTests.m */; };
 		BDEFE20818BF32FC0095142C /* FoodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEFE20718BF32FC0095142C /* FoodViewController.m */; };
 		BDEFE20B18BF33070095142C /* WorkoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEFE20A18BF33070095142C /* WorkoutViewController.m */; };
+		BDEFE20D18BF58ED0095142C /* bulletproof_noskull.png in Resources */ = {isa = PBXBuildFile; fileRef = BDEFE20C18BF58ED0095142C /* bulletproof_noskull.png */; };
+		BDEFE21118BF59CA0095142C /* bulletproof_skull.png in Resources */ = {isa = PBXBuildFile; fileRef = BDEFE21018BF59CA0095142C /* bulletproof_skull.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,11 +57,12 @@
 		BDEFE1F718BF316A0095142C /* StoryBoardTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StoryBoardTests-Info.plist"; sourceTree = "<group>"; };
 		BDEFE1F918BF316A0095142C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BDEFE1FB18BF316A0095142C /* StoryBoardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StoryBoardTests.m; sourceTree = "<group>"; };
-		BDEFE20518BF324A0095142C /* bulletproof_skull */ = {isa = PBXFileReference; lastKnownFileType = file; name = bulletproof_skull; path = "../../../../../../Desktop/App images/bulletproof_skull"; sourceTree = "<group>"; };
 		BDEFE20618BF32FC0095142C /* FoodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodViewController.h; sourceTree = "<group>"; };
 		BDEFE20718BF32FC0095142C /* FoodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodViewController.m; sourceTree = "<group>"; };
 		BDEFE20918BF33070095142C /* WorkoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkoutViewController.h; sourceTree = "<group>"; };
 		BDEFE20A18BF33070095142C /* WorkoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorkoutViewController.m; sourceTree = "<group>"; };
+		BDEFE20C18BF58ED0095142C /* bulletproof_noskull.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bulletproof_noskull.png; path = "../../App/Images/App images/bulletproof_noskull.png"; sourceTree = "<group>"; };
+		BDEFE21018BF59CA0095142C /* bulletproof_skull.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bulletproof_skull.png; path = "../../App/Images/App images/bulletproof_skull.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,11 +122,12 @@
 		BDEFE1D618BF316A0095142C /* StoryBoard */ = {
 			isa = PBXGroup;
 			children = (
+				BDEFE21018BF59CA0095142C /* bulletproof_skull.png */,
+				BDEFE20C18BF58ED0095142C /* bulletproof_noskull.png */,
 				BDEFE20618BF32FC0095142C /* FoodViewController.h */,
 				BDEFE20718BF32FC0095142C /* FoodViewController.m */,
 				BDEFE20918BF33070095142C /* WorkoutViewController.h */,
 				BDEFE20A18BF33070095142C /* WorkoutViewController.m */,
-				BDEFE20518BF324A0095142C /* bulletproof_skull */,
 				BDEFE1DF18BF316A0095142C /* AppDelegate.h */,
 				BDEFE1E018BF316A0095142C /* AppDelegate.m */,
 				BDEFE1E218BF316A0095142C /* Main.storyboard */,
@@ -211,6 +215,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = Fontys;
 				TargetAttributes = {
+					BDEFE1CC18BF316A0095142C = {
+						DevelopmentTeam = CU3Z5M9BXQ;
+					};
 					BDEFE1ED18BF316A0095142C = {
 						TestTargetID = BDEFE1CC18BF316A0095142C;
 					};
@@ -242,7 +249,9 @@
 			files = (
 				BDEFE1E918BF316A0095142C /* Images.xcassets in Resources */,
 				BDEFE1DB18BF316A0095142C /* InfoPlist.strings in Resources */,
+				BDEFE21118BF59CA0095142C /* bulletproof_skull.png in Resources */,
 				BDEFE1E418BF316A0095142C /* Main.storyboard in Resources */,
+				BDEFE20D18BF58ED0095142C /* bulletproof_noskull.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,10 +403,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "StoryBoard/StoryBoard-Prefix.pch";
 				INFOPLIST_FILE = "StoryBoard/StoryBoard-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -407,10 +419,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "StoryBoard/StoryBoard-Prefix.pch";
 				INFOPLIST_FILE = "StoryBoard/StoryBoard-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -476,6 +491,7 @@
 				BDEFE20118BF316A0095142C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BDEFE20218BF316A0095142C /* Build configuration list for PBXNativeTarget "StoryBoardTests" */ = {
 			isa = XCConfigurationList;
@@ -484,6 +500,7 @@
 				BDEFE20418BF316A0095142C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
