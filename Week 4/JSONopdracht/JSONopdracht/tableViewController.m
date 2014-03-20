@@ -9,6 +9,7 @@
 #import "tableViewController.h"
 #import "AFNetworking.h"
 #import "Pirate.h"
+#import "detailsViewController.h"
 
 @interface tableViewController ()
 
@@ -41,6 +42,7 @@
 -(void)loadJSONData
 {
     AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
+    manager.responseSerializer.acceptableContentTypes = [NSSet setWithObject:@"application/x-javascript"];
     [manager GET:@"http://athena.fhict.nl/users/i886625/pirates.json" parameters:nil
          success:^(AFHTTPRequestOperation *operation, id responseObject){
         NSLog(@"JSON: %@", responseObject);
@@ -57,8 +59,8 @@
         Pirate *pirate = [[Pirate alloc]init];
         pirate.name = [dict objectForKey:@"name"];
         pirate.life = [dict objectForKey:@"life"];
-        pirate.countryOfOrigin = [dict objectForKey:@"country of origin"];
-        pirate.active = [dict objectForKey:@"years active"];
+        pirate.countryOfOrigin = [dict objectForKey:@"country_of_origin"];
+        pirate.active = [dict objectForKey:@"years_active"];
         pirate.comments = [dict objectForKey:@"comments"];
         
         [self.pirates addObject:pirate];
@@ -79,7 +81,7 @@
 {
 #warning Incomplete method implementation.
     // Return the number of rows in the section.
-    return 4;
+    return self.pirates.count;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -106,6 +108,7 @@
     //Find the selected pirate
     NSIndexPath *selectedRow = [self.tableView indexPathForSelectedRow];
     Pirate *selectedPirate =  [self.pirates objectAtIndex:selectedRow.row];
+    //Pass the selected pirate to the next viewcontroller
     detailsViewController *controller = segue.destinationViewController;
     controller.selectedPirate = selectedPirate;
 }

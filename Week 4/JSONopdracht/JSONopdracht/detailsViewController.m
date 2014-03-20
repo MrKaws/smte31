@@ -27,6 +27,10 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    self.lblName.text = @"";
+    self.lblLife.text = @"";
+    self.lblCountry.text = @"";
+    self.lblYears.text = @"";
 }
 
 - (void)didReceiveMemoryWarning
@@ -36,11 +40,11 @@
 }
 
 -(void)viewDidAppear:(BOOL)animated{
-    self.lblName = self.selectedPirate.name;
-    self.lblLife = self.selectedPirate.life;
-    self.lblCountry = self.selectedPirate.countryOfOrigin;
-    self.lblYears = self.selectedPirate.active;
-    self.tvComments = self.selectedPirate.comments;
+    self.lblName.text = self.selectedPirate.name;
+    self.lblLife.text = self.selectedPirate.life;
+    self.lblYears.text = self.selectedPirate.active;
+    self.lblCountry.text = self.selectedPirate.countryOfOrigin;
+    self.tvComments.text = self.selectedPirate.comments;
 }
 
 @end
