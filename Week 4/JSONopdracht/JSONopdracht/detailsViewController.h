@@ -15,6 +15,7 @@
 @property (strong, nonatomic) IBOutlet UILabel *lblYears;
 @property (strong, nonatomic) IBOutlet UILabel *lblCountry;
 @property (strong, nonatomic) IBOutlet UITextView *tvComments;
+- (IBAction)btnBack:(id)sender;
 @property Pirate *selectedPirate;
 -(void)viewDidAppear:(BOOL)animated;
 @end

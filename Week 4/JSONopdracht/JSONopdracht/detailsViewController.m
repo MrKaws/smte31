@@ -31,6 +31,7 @@
     self.lblLife.text = @"";
     self.lblCountry.text = @"";
     self.lblYears.text = @"";
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -47,4 +48,7 @@
     self.tvComments.text = self.selectedPirate.comments;
 }
 
+- (IBAction)btnBack:(id)sender {
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
 @end
